@@ -17,3 +17,9 @@ x = bytearray(5)                               #bytearray
 x = memoryview(bytes(5))                       #memoryview
 
 print(type(x))                                 #show type
+
+
+#### Casting: converting a certain data type to a different data type
+x = str(324)          #convert to string --> '342'
+x = float("34")         #convert to float --> 34.0
+x = int(534.623)     #convert to integer --> 534
