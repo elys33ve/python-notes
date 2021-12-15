@@ -54,7 +54,7 @@ print(what.isalpha())           #returns true if all characters are in alphabet 
 print(what.isdecimal())         #returns true if all characters are decimal
 print(this.capitalize())        #capitalize first word
 print(this.count('l'))          #count # of times value appears in string
-print(this.encode('utf-8'))     #encodes string (ex: *base64.b64encode(this.encode('utf-8')) #for convert to base64 (also import base 64))
+print(str.encode(this))         #encodes string --> (converts to bytes)
 print(this.endswith('world'))   #returns true if it ends w value
 print(this.startswith('h'))     #true if starts with value
 print(this.splitlines())        #splits string at newline
