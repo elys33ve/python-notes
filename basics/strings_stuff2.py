@@ -32,6 +32,4 @@ whitespace.strip()                #strip() removes whitespace from l and r
 whitespace = whitespace.strip() #this also works, just does it for variable automatically/permanently
 
 a, b, c = 1, 2, 3   #initialize multiple variables in one line (good for shortening programs)
-CONSTANT = 400      #no built in constant type but ppl use all uppercase to indicate value that shouldn't be changed
-
-import this          # the zen of python apparently. just because.
+CONSTANT = 400      #no built in constant type but ppl use all uppercase to indicate value that shouldn't be changed  
