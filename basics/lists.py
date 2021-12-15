@@ -24,6 +24,7 @@ this.reverse()          #reverse order
 len(this)               #number items in list (len = "length" of list)
 this_copy = this[:]     #copy list 
 print(sorted(this))     #temporarily sort list (to print it)
+print(''.join(this))      #join values into string
 
 print(min(that))                        #min value in list (w numbers)
 print(max(that))                        #max value in list (w numbers)
