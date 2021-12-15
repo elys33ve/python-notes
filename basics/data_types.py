@@ -1,4 +1,4 @@
-#### Data Types:    
+##### DATA TYPES #####  
 
 #Examples:                     
 x = "hi"                                       #str --> string = anything in parenthases (either 'one' or "two" work)
@@ -19,7 +19,7 @@ x = memoryview(bytes(5))                       #memoryview
 print(type(x))                                 #show type
 
 
-#### Casting: converting a certain data type to a different data type
+#casting: converting a certain data type to a different data type. ex:
 x = str(324)          #convert to string --> '342'
-x = float("34")         #convert to float --> 34.0
-x = int(534.623)     #convert to integer --> 534
+x = float("34")       #convert to float --> 34.0
+x = int(534.623)      #convert to integer --> 534
